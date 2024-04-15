@@ -1,0 +1,127 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 5rem 0;
+    margin-left:200px ;
+    margin-right: 200px;
+  }
+  
+  .pagination button {
+    background-color: transparent;
+    border: none;
+    color:black;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+
+.pagination button.active {
+  background-color: orange;
+  color: black;
+} 
+
+
+
+
+/* footer css */
+ /* body {
+  margin: auto 0%;
+  width: 100%;
+  }  */
+  footer{
+      padding: 10px;
+    background-color: rgb(22, 20, 20);
+      color: whitesmoke;
+      position: relative;
+      height: 125px;
+     
+     /* border-radius: 5%; */
+      /* margin-left: 5px; 
+     margin-right: 5px; 
+     margin-top: 20px;
+     */
+  }
+  
+  .fa {
+      padding: 5px;
+      font-size: 30px;
+      /* width: 7px; */
+      text-align: center;
+      text-decoration: none;
+      /* margin: 5px 2px; */
+      border-radius: 35%;
+      height: 40px;
+      width: 40px;
+      position: relative;
+      top:0px;
+    }
+  
+    .fa-github {
+      background:white;
+      color:black;
+  
+    }
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+  .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+   .contact{
+      padding-left: 400px;
+      padding-top: 10px;
+      font-size: larger;
+      margin-top: -30px;
+      margin-left: 100px;
+    
+   }
+   .links {
+  justify-content: space-between;
+  margin-left: 80%;
+  margin-top: -60px;
+  color: whitesmoke;
+  text-decoration: none;
+   display: flex; 
+  gap: 10px;
+
+
+  
+   }
+
+  .follow{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    display: inline-block !important;
+  }
+
+  /* .coins-footer{
+    margin-top: 500px;
+
+  } */
+
+   /* chart css */
+/* .btn button { */
+/* 
+}
+
+.btn button.active {
+  background-color: blue; 
+  color: white; 
+  
+} */ 

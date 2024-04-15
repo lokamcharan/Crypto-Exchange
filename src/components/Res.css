@@ -1,0 +1,129 @@
+.search-bar input{
+    height: 2rem;
+    width: 20rem;
+    position: fixed;
+    top: 1%;
+    left: 35%;
+    padding-left: 5px;
+}
+
+
+.btns{
+    margin-top: 35px;
+    
+}
+
+
+.btns button {
+  /* Your default button styles */
+}
+
+.btns button.active {
+  /* Your styles for the active button */
+  background-color: orange; /* For example, change background color to blue */
+  color: black; /* Change text color to white */
+  /* Add any other styles you want to apply to the active button */
+}
+
+
+
+/* .btns:link{
+  color: black;
+  background-color: white;
+}
+
+.btns:hover{
+    
+    background-color: red;
+
+}
+.btns:active{
+  background-color: orange;
+} 
+
+.btns:visited{
+  background-color: blue;
+} */
+
+@media only screen and (max-width: 480px) {
+  .coins-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust min and max width as needed */
+  }
+}
+
+
+.coins-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); Adjust the min and max width as needed */
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 15px; /* Adjust the gap between cards as needed */
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    
+    
+  }
+
+/* 
+  .coins-footer{
+    margin-bottom: 500px;
+
+  } */
+  
+  /* .ex-cards {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  } */
+  .ex-cards {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.1s ease;
+    width: 240px;
+    height: 260px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .ex-cards:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image img {
+    height: 80px;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: black;
+    margin-top: 10px; 
+  }
+  
+  .price {
+    margin-top: 10px; 
+    color: black;
+  }
+  
+  .rank {
+    margin-top: 10px;
+  }
+  
+  .bg {
+    background-color:  
+  }
+
+  
+  
