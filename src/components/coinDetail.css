@@ -67,10 +67,8 @@
 
   .btn button:visited{
     background-color: blue;
-  } */
+  } 
 
- .btn button {
-}
 
 .btn button.active {
   background-color: orange;
