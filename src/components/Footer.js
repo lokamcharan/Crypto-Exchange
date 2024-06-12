@@ -11,7 +11,7 @@ const FooterName = () => {
   return (
     <footer className="footer">
       <div>
-        <h2>Crypto-Exchange-View</h2>
+        <h2>Coin-Connect</h2>
         <div className="contact">
           <h3>Contact Us</h3>
           <h5>Name: Charan</h5>
